@@ -1,0 +1,61 @@
+html {
+  font-size: 11px;
+  font-family: Lato, sans-serif;
+  --nav-color: #161616;
+  --bg-color: #232323;
+  background-color: var(--bg-color);
+  max-width: 399px;
+  min-width: 286px;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0px;
+  overflow: hidden;
+  margin: .25rem .5rem;
+}
+
+.adobe-controlGroup {
+  justify-content: center;
+}
+
+input {
+  font-size: 11px;
+}
+
+.adobe-btn-lg {
+  width: 10%;
+}
+
+.textArea {
+  margin-top: .5rem;
+  width: 100%;
+}
+
+.adobe-inputGroup {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.adobe-btn {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.icon {
+  width: 100%;
+}
+
+.prefix {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: .25rem;
+  color: rgba(255,255,255,.2);
+  width: 2rem;
+}
+
+#input {
+  height: 4rem;
+  width: 100%;
+  /* display: hide; */
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.eventmanager.panel">
+        <HostList>
+            <Host Name="ILST" Port="4444"/>
+            <Host Name="AEFT" Port="4445"/>
+            <Host Name="PHXS" Port="4446"/>
+        </HostList>
+    </Extension>
+</ExtensionList>

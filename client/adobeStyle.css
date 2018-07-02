@@ -1,0 +1,194 @@
+html {
+  font-size: 11px;
+}
+
+body {
+  margin: 0px 5%;
+  overflow: hidden;
+}
+
+.adobe-toolbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: .5rem 0px;
+  align-items: center;
+}
+
+.adobe-footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: .75rem 0px;
+  align-items: center;
+}
+
+.adobe-btn-corner {
+  position: relative;
+  top: .70rem;
+  left: .275rem;
+  border-style: solid;
+  border-color: transparent;
+  width: 0px;
+  height: 0px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-left-width: 4.5px;
+  border-bottom-width: 4.5px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+}
+
+.adobe-inputGroup-num, .adobe-inputGroup {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: .25rem 0px;
+}
+
+textArea {
+  height: 3rem;
+}
+
+.adobe-controlGroup {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.adobe-btn {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  /* width: ; */
+  height: 2rem;
+  border: 1.5px solid transparent;
+  margin: .25rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.adobe-btn-lg {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 4.5rem;
+  height: 4rem;
+  /* margin: auto .035rem; */
+}
+
+.adobe-btn-toggle {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: auto;
+  height: 2rem;
+  border: 1.5px solid transparent;
+  margin: auto .035rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.adobe-btn-select {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: auto;
+  height: 2rem;
+  border: 1.5px solid transparent;
+  margin-left: .5rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+.adobe-upDown {
+  padding-left: .25rem;
+  padding-right: .25rem;
+  margin-right: .5rem;
+  margin-left: 0px;
+  width: auto;
+  height: 1.75rem;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1.5px;
+  border-left-width: 0px;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.adobe-upDown-Up, .adobe-upDown-Down {
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.adobe-upDown-Up {
+  margin-top: -2px;
+  margin-bottom: 1px;
+}
+
+.adobe-upDown-Down {
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+
+.adobe-input {
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 2px 2px 2px 2px;
+  padding: .25rem .5rem;
+  height: 1.25rem;
+  width: auto;
+  margin: .75rem;
+}
+
+.adobe-input-md {
+  width: 2rem;
+  margin: 0px .25rem;
+}
+
+.adobe-input-lg {
+  width: 6.75rem;
+  margin: 0px .25rem;
+}
+
+.adobe-input-2x {
+  width: 80%;
+  margin: .125rem;
+}
+
+.no-input {
+  user-select: none;
+  cursor: default;
+}
+
+.adobe-input-num {
+  margin-right: 0px;
+  width: 3.25rem;
+  height: 1.75rem;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 2px 0px 0px 2px;
+  padding: .25rem .5rem;
+}
+
+.adobe-input:focus {
+  outline-offset: 0px;
+}
+
+:focus {
+  outline-width: 0px;
+}
