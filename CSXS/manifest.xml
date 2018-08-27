@@ -41,11 +41,14 @@
           <Geometry>
             <Size>
               <!-- 7) -->
-              <Height>150</Height>
+              <Height>80</Height>
               <Width>260</Width>
             </Size>
           </Geometry>
-          <Icons />
+          <Icons>
+             <Icon Type="Normal">./icons/iconLight.png</Icon>
+             <Icon Type="RollOver">./icons/iconLight.png</Icon>
+          </Icons>
         </UI>
       </DispatchInfo>
     </Extension>

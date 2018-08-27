@@ -23,6 +23,16 @@
   	csInterface.dispatchEvent(event);
   }
 
+  csInterface.addEventListener('mighty.rollcall', function(evt) {
+    dispatchEvent('mighty.rollanswer', extFolder())
+  });
+
+  function extFolder(){
+    var str = csInterface.getSystemPath(SystemPath.EXTENSION);
+    var parent = str.substring(str.lastIndexOf('/') + 1, str.length);
+    return parent;
+  }
+
   inputs.forEach(function(v,i,a) {
   	if (v.id[0] === 's') {
   		v.addEventListener("keyup", function(evt){
